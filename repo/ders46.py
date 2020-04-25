@@ -1,34 +1,34 @@
-#dict 
+dict 
 
-# person = {"name":"Feyza", "languages":["python","C#"]}
+person = {"name":"Feyza", "languages":["python","C#"]}
 
-# result = person["name"]
-# result = person["languages"][0]
+result = person["name"]
+result = person["languages"][0]
 
 import json 
 
-# #json string to Dict
+#json string to Dict
 
 
-# person_json = '{"name":"Feyza", "languages":["python","C#"]}'
+person_json = '{"name":"Feyza", "languages":["python","C#"]}'
 
 
-# result = json.loads(person_json )
+result = json.loads(person_json )
 
-# #result = result["name"]
+#result = result["name"]
 
-# result = result["languages"]
+result = result["languages"]
 
-# print(type(result))
+print(type(result))
 
-# print(result)
+print(result)
 
 
-# with open("person.json") as file:
-#     data = json.load(file)
-#     print(data)
-#     print(data["name"])
-#     print(data["languages"])
+with open("person.json") as file:
+    data = json.load(file)
+    print(data)
+    print(data["name"])
+    print(data["languages"])
 
 person_dict = {
 
@@ -49,9 +49,9 @@ detay = {
     "güzel":"günler",
     "her zaman":"seninle"
 }
-#Dict to JSON string
-# result = json.dumps(person_dict)
-# print(type(result))
+Dict to JSON string
+result = json.dumps(person_dict)
+print(type(result))
 
 with open("person.json","a") as file :
     json.dump(person_dict,file) 

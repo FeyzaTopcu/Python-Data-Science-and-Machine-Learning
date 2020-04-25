@@ -1,38 +1,38 @@
-# # def usalma(number):
+# def usalma(number):
 
-# #     def inner(power):
-# #         return number ** power
+#     def inner(power):
+#         return number ** power
 
-# #     return inner
-
-
-# # two = usalma(2)
-# # print(two(2))
-# # pr = usalma(3)
-# # print(pr(3))
-
-# # print(usalma(3))
-
-# # four = usalma(4)
-# # print(four(5))
+#     return inner
 
 
-# def yetki(page):
-#     def mevki(rol):
-#         if rol == 'Admin':
-#             return "{0} rolü {1} sayfasına ulaşabilir.".format(rol,page)
-#         else :
-#             return "{0} rolü {1} sayfasına ulaşamaz".format(rol,page)
-#     return mevki
+# two = usalma(2)
+# print(two(2))
+# pr = usalma(3)
+# print(pr(3))
+
+# print(usalma(3))
+
+# four = usalma(4)
+# print(four(5))
 
 
-# user1= yetki("Devops Page")
-# user2 = yetki("Data Scientist Page")
-# user3 = yetki("Cyber Security Page")
+def yetki(page):
+    def mevki(rol):
+        if rol == 'Admin':
+            return "{0} rolü {1} sayfasına ulaşabilir.".format(rol,page)
+        else :
+            return "{0} rolü {1} sayfasına ulaşamaz".format(rol,page)
+    return mevki
 
-# print(user3("Admin"))
-# print(user2("User"))
-# print(user1("Admin"))
+
+user1= yetki("Devops Page")
+user2 = yetki("Data Scientist Page")
+user3 = yetki("Cyber Security Page")
+
+print(user3("Admin"))
+print(user2("User"))
+print(user1("Admin"))
 
 
 def islem(islemIsmi):

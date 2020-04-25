@@ -1,13 +1,13 @@
-# liste = [1,2,3,4,5]
+liste = [1,2,3,4,5]
 
-# iterator = iter(liste)
+iterator = iter(liste)
 
-# while True:
-#     try:
-#         elemant = next(iterator)
-#         print(elemant)
-#     except StopIteration:
-#         break
+while True:
+    try:
+        elemant = next(iterator)
+        print(elemant)
+    except StopIteration:
+        break
 
 class MyNumbers:
     def __init__(self,start,stop):

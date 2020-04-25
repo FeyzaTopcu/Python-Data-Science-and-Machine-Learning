@@ -1,15 +1,15 @@
 import random 
 
-#result = dir(random)
+result = dir(random)
 
 
-#result = help(random)
-#print(result)
+result = help(random)
+print(result)
 
-#result = random.random() * 100
-#result = int(random.uniform(10,100))
+result = random.random() * 100
+result = int(random.uniform(10,100))
 
-#result = random.randint(1,100)
+result = random.randint(1,100)
 
 names = ['emin','zeynep','şüheda','reyhan','feyza']
 result = names[random.randint(0,len(names)-1)]

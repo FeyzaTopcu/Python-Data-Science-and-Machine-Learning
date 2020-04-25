@@ -1,15 +1,15 @@
-# def my_decorater(func):
-#     def wraper(name):
-#         print("fonksiyondan önceki işlemler")
-#         func(name )
-#         print("fonksiyondan sonraki işlemler")
-#     return wraper
+def my_decorater(func):
+    def wraper(name):
+        print("fonksiyondan önceki işlemler")
+        func(name )
+        print("fonksiyondan sonraki işlemler")
+    return wraper
 
-# @my_decorater
-# def sayHello(nesne):
-#     print("hello",nesne)
+@my_decorater
+def sayHello(nesne):
+    print("hello",nesne)
 
-# sayHello("tabak")
+sayHello("tabak")
 
 import math 
 import time

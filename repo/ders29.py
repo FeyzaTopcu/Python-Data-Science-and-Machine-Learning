@@ -1,21 +1,21 @@
-#import math as islem
+import math as islem
 ###YÖNTEM###
-#  
-#value = dir(math)
-#print(value)
-#value = help(math)
-#value=help(math.factorial)
-#print(value)
-#value = math.sqrt(49)
-#print(value)
-#value = math.factorial(5)
-#print(value)
 
-#value = math.floor(5.9)
-#value = math.ceil(5.9)
+value = dir(math)
+print(value)
+value = help(math)
+value=help(math.factorial)
+print(value)
+value = math.sqrt(49)
+print(value)
+value = math.factorial(5)
+print(value)
 
-#value = islem.factorial(7)
-#print(value)
+value = math.floor(5.9)
+value = math.ceil(5.9)
+
+value = islem.factorial(7)
+print(value)
 
 
 ## YÖNTEM 2 ##
