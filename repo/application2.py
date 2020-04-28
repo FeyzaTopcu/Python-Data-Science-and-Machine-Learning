@@ -3,7 +3,7 @@ cities= ['antep','urfa','maras','trabzon']
 for city in cities:
     print(f'gezilen sehir: {city}')
 
-st= 'feyza*topcuyazılım*mühendimy_list'
+st= 'feyza*topcuyazılım*mühendismy_list'
 
 myy= st.split('*')
 print(myy)
