@@ -29,7 +29,7 @@ class Github :
         self.reponame = reponame
         self.owner = owner
  
-        response = requests.delete(self.api+'/repos/:'+self.owner+'/:'+self.reponame,json={
+        response = requests.delete(self.api+'users/repos/:'+self.owner+'/:'+self.reponame,json={
             "name": reponame,
             "description": "This is your first repository",
             "homepage": "https://feyzatopcu.com",
@@ -37,7 +37,7 @@ class Github :
             "has_issues": True,
             "has_projects": True,
             "has_wiki": True
-        })
+        })  
         return response.json()
     
         
